@@ -6,6 +6,7 @@ public class Aluno {
 	private int idade;
 	private String telefone;
 	private Notas notas;
+	private String cpf;
 	
 	public String getNome() {
 		return nome;
@@ -30,6 +31,12 @@ public class Aluno {
 	}
 	public void setNotas(Notas notas) {
 		this.notas = notas;
+	}
+	public String getCpf() {
+		return cpf;
+	}
+	public void setCpf(String cpf) {
+		this.cpf = cpf;
 	}
 	
 	
