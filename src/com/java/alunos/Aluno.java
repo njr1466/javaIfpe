@@ -2,6 +2,9 @@ package com.java.alunos;
 
 public class Aluno {
 	
+	/**
+	 * CLASSE ALUNO
+	 */
 	private String nome;
 	private int idade;
 	private String telefone;
